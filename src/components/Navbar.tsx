@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import ThemeToggle from "./ThemeToggle";
+
 
 const links = [
   { label: "About", href: "#about" },
@@ -59,7 +59,7 @@ const Navbar = () => {
               )}
             </a>
           ))}
-          <ThemeToggle />
+     
         </div>
         <div className="md:hidden flex items-center gap-3">
           <ThemeToggle />
